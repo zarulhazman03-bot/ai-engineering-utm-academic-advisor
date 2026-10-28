@@ -77,8 +77,6 @@ Only publicly available documents are used. No student records, grades or person
 
 ## 9. Comparison with EduAdvisor
 
-> **Note to self:** the EduAdvisor details below are written from the general idea of an education advising assistant. Check this section against the EduAdvisor example in the Topic 1 Lab manual and adjust the specifics before submission.
-
 **Similarities**
 - Both are education-domain assistants that help students get guidance.
 - Both rely on an AI model combined with curated documents rather than free-form answers.
