@@ -53,3 +53,17 @@ Week	Focus	Status	Notes
 1	Project scoping, GitHub setup, observation sheet and system map	Done	Scope written; repository structure created
 2	TBD	Planned	
 3	TBD	Planned	
+
+
+## Week 2 — Requirements and V1 architecture
+- `docs/week2_requirements.md`: refined project framing, application scope, functional, non-functional and Responsible AI requirements.
+- `docs/week2_evaluation_criteria.md`: measurable evaluation criteria and proposed thresholds.
+- `docs/week2_architecture_v1.svg`: V1 conceptual architecture diagram (vector format).
+- `docs/week2_architecture_decisions.md`: architecture needs, decision records, trade-offs and traceability matrix.
+
+## Week 3 — Data engineering
+- `docs/week3_data_inventory.md`: approved UTM source inventory and requirement-to-data mapping.
+- `notebooks/week3_pipeline.ipynb`: Colab notebook for PDF/TXT ingestion, page-level inspection, chunking, validation, JSONL export, SHA-256 lineage and repeatability smoke test.
+- `docs/week3_pipeline.md`: pipeline stages and failure handling.
+- **Execution status:** notebook has been added but has not yet been run against the downloaded source PDFs. No dataset counts or successful execution results are claimed.
+- **Data handling:** do not commit source regulation PDFs unless their terms explicitly permit redistribution.
