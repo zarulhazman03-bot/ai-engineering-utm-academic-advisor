@@ -51,8 +51,8 @@ ai-engineering-utm-academic-advisor/
 Weekly Progress
 Week	Focus	Status	Notes
 1	Project scoping, GitHub setup, observation sheet and system map	Done	Scope written; repository structure created
-2	TBD	Planned	
-3	TBD	Planned	
+2	Requirements, evaluation criteria, V1 architecture and traceability	Done (documentation)	See docs/week2_* and docs/week2_architecture_v1.svg
+3	PDF ingestion, preparation, validation and lineage	Notebook prepared; execution pending	See notebooks/week3_pipeline.ipynb and docs/week3_data_inventory.md
 
 
 ## Week 2 — Requirements and V1 architecture
@@ -64,6 +64,6 @@ Week	Focus	Status	Notes
 ## Week 3 — Data engineering
 - `docs/week3_data_inventory.md`: approved UTM source inventory and requirement-to-data mapping.
 - `notebooks/week3_pipeline.ipynb`: Colab notebook for PDF/TXT ingestion, page-level inspection, chunking, validation, JSONL export, SHA-256 lineage and repeatability smoke test.
-- `docs/week3_pipeline.md`: pipeline stages and failure handling.
+- `docs/week3_pipeline.md`: pipeline stages and failure handling.\n- `docs/week3_pipeline_diagram.svg`: visual pipeline flow.
 - **Execution status:** notebook has been added but has not yet been run against the downloaded source PDFs. No dataset counts or successful execution results are claimed.
 - **Data handling:** do not commit source regulation PDFs unless their terms explicitly permit redistribution.
